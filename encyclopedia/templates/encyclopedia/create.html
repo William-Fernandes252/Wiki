@@ -3,7 +3,7 @@
 {% block title %}Create New Page{% endblock %}
 
 {% block body %}
-    <h1 class="ml-3">Create New Page</h1>
+    <h1>Create New Page <i class="bi bi-pencil"></i></h1>
     <hr>
     <p>Send a new page with a unique title and and content in <a href="https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax">Markdown</a> format.</p>
     <form action="{% url 'create' %}" method="post">

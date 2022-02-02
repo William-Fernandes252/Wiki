@@ -9,7 +9,7 @@ The course second project consists of a **Wiki application**, build in **Django*
 During this project, I could learn more about
 - Django basics, including routing, templates creation and rendering;
 - Parsing and processing of web requests;
-- Managing files programmatically with Python
+- Managing files programmatically with Python.
 
 In order to install and run it, follow the steps given bellow.
 

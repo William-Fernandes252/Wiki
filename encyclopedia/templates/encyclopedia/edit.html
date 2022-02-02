@@ -1,0 +1,17 @@
+{% extends "encyclopedia/layout.html" %}
+
+{% block title %}Edit Page{% endblock %}
+
+{% block body %}
+    <h1>Edit "{{ entry }}" page</h1>
+    <hr>
+    <p>Update the content of the page with a <a href="https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax">Markdown</a> formatted input.</p>
+    <form action="{% url 'edit' entry %}" method="post">
+        <fieldset class="form-fieds">
+            {% csrf_token %}
+            <label for="id_content">Update Content: </label>
+            <textarea id="id_content" class="form-field" name="content" autofocus>{{ content}}</textarea>
+            <button type="submit">Update Page</button>
+        </fieldset>
+    </form>
+{% endblock %}

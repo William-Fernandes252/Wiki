@@ -1,0 +1,9 @@
+{% extends "encyclopedia/layout.html"%}
+
+{% block title %}{{error}}{% endblock %}
+
+{% block body %}
+    <h1><span class="error">Error: </span>{{error}}</h1>
+    <hr>
+    <p>{{ message }}</p>
+{% endblock %}

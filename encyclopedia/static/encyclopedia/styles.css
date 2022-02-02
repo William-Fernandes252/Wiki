@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+code {
+    white-space: pre;
+}
+
+h1 {
+    margin-top: 0px;
+    padding-top: 20px;
+}
+
+span.error {
+    color: red;
+}
+
+.form-fields {
+    display: flex;
+    flex-direction: column wrap;
+    justify-content: left;
+}
+
+fieldset input, fieldset textarea{
+    display: block;
+    margin-bottom: 10px;
+}
+
+fieldset label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+textarea {
+    height: 90vh;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.main {
+    padding: 10px;
+}
+
+.search {
+    width: 100%;
+    font-size: 15px;
+    line-height: 15px;
+}
+
+.sidebar {
+    background-color: #f0f0f0;
+    height: 100vh;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 5px;
+}
+
+button {
+    background-color: #007bff;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    padding: 6px;
+}
+
+button a {
+    color: white;
+}
+
+button a:hover {
+    text-decoration: none;
+    color: white;
+}

@@ -29,4 +29,4 @@ In order to install and run it, follow the steps given bellow.
 
 <h3 align="center">Edit entry page</h3>
 
-![Edit entry page](/screenshots/edit.jpg)
+![Edit entry page](/screenshots/edit.jpeg)

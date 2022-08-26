@@ -3,7 +3,7 @@ CS50w Wiki Project.
 
 ![Home page](screenshots/main.jpg)
 
-## Get Started
+## About
 The course second project consists of a **Wiki application**, build in **Django**, where the users can read and create encyclopedia entries formatted in **Markdown markup language**. As custom additional features, I implemented a **search bar**, where the user can get the entries resembles the keywords entered.
 
 During this project, I could learn more about
